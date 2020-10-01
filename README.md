@@ -1,1 +1,1 @@
-#Motif-informed embeddings for disease pathway prediction
+# Motif-informed embeddings for disease pathway prediction
