@@ -1,0 +1,9 @@
+[submodule "GCN"]
+	path = GCN
+	url = https://github.com/tkipf/gcn
+[submodule "GraphSAGE"]
+	path = GraphSAGE
+	url = https://github.com/williamleif/GraphSAGE
+[submodule "node2vec"]
+	path = node2vec
+	url = https://github.com/aditya-grover/node2vec
