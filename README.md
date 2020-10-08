@@ -1,8 +1,8 @@
 # Motif-informed embeddings for disease pathway prediction
 
 FANMOD tool: http://theinf1.informatik.uni-jena.de/motifs/
-FANMOD on web: http://netbio.bgu.ac.il/motifnet/#/    
-[paper](https://academic.oup.com/bioinformatics/article/33/12/1907/2971438)
+
+FANMOD on web: http://netbio.bgu.ac.il/motifnet/#/ [paper](https://academic.oup.com/bioinformatics/article/33/12/1907/2971438)
 
 NeMoFinder paper: https://dl.acm.org/doi/pdf/10.1145/1150402.1150418
 
@@ -10,6 +10,7 @@ NeMoFinder paper: https://dl.acm.org/doi/pdf/10.1145/1150402.1150418
 
 - [paper](http://psb.stanford.edu/psb-online/proceedings/psb18/agrawal.pdf) 
 - [code](https://github.com/mims-harvard/pathways)
+- Further analysis in `data`
 
 [Graph Convolutional Networks to explore Drug and
 Disease Relationships in Biological Networks](http://snap.stanford.edu/class/cs224w-2017/projects/cs224w-41-final.pdf)
