@@ -7,3 +7,6 @@
 [submodule "node2vec"]
 	path = node2vec
 	url = https://github.com/aditya-grover/node2vec
+[submodule "Network-Motif"]
+	path = Network-Motif
+	url = https://github.com/gtremper/Network-Motif.git
