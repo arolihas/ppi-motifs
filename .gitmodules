@@ -1,9 +1,1 @@
-[submodule "GCN"]
-	path = GCN
-	url = https://github.com/tkipf/gcn
-[submodule "GraphSAGE"]
-	path = GraphSAGE
-	url = https://github.com/williamleif/GraphSAGE
-[submodule "Network-Motif"]
-	path = Network-Motif
-	url = https://github.com/gtremper/Network-Motif.git
+

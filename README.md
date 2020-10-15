@@ -1,7 +1,7 @@
 # Motif-informed embeddings for disease pathway prediction
 
 node2vec: python3 implementation (pip3 install node2vec)
-
+GCN & graphSAGE: stellar-graph (pip3 install stellargraph)
 FANMOD: python-igraph package (brew install igraph)
 
 [Large-Scale Analysis of Disease Pathways in the Human Interactome](http://snap.stanford.edu/pathways/) 
