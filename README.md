@@ -1,10 +1,8 @@
 # Motif-informed embeddings for disease pathway prediction
 
-FANMOD tool: http://theinf1.informatik.uni-jena.de/motifs/
+node2vec: python3 implementation (pip3 install node2vec)
 
-FANMOD on web: http://netbio.bgu.ac.il/motifnet/#/ [paper](https://academic.oup.com/bioinformatics/article/33/12/1907/2971438)
-
-NeMoFinder paper: https://dl.acm.org/doi/pdf/10.1145/1150402.1150418
+FANMOD: python-igraph package (brew install igraph)
 
 [Large-Scale Analysis of Disease Pathways in the Human Interactome](http://snap.stanford.edu/pathways/) 
 
