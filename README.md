@@ -1,9 +1,17 @@
 # Motif-informed embeddings for disease pathway prediction
 
+## Motifs detection
+FANMOD: python-igraph package (brew install igraph) => estimation of all graphlets type in the network  
+
+Graphlets type can be found in this paper: https://pubmed.ncbi.nlm.nih.gov/17237089/  
+
+![Graphlets](./figures/btl301f1.jpeg)
+
+## Graph embedding
 node2vec: python3 implementation (pip3 install node2vec)
 GCN & graphSAGE: stellar-graph (pip3 install stellargraph)
-FANMOD: python-igraph package (brew install igraph)
 
+## Related work
 [Large-Scale Analysis of Disease Pathways in the Human Interactome](http://snap.stanford.edu/pathways/) 
 
 - [paper](http://psb.stanford.edu/psb-online/proceedings/psb18/agrawal.pdf) 
