@@ -1,2 +1,4 @@
 .DS_Store
 snap-py3-mac
+__pycache__
+.ipynb_checkpoints
