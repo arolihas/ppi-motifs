@@ -110,12 +110,14 @@ def graphsage_pipeline(G, node_subjects, layer_sizes=[32,32]):
     model = build_model(graphsage_model, train_subjects.values.shape[1])
 
     val_gen = generator.flow(val_subjects.index, val_subjects.values)
+    es_callback = EarlyStopping(monitor="val_acc", patience=50, restore_best_weights=True)
     history = model.fit(
         train_gen, 
         epochs=200, 
         validation_data=val_gen,
         verbose=0, 
-        shuffle=False
+        shuffle=False,
+        callbacks=[es_callback]
     )
     
     plot_results(history)
